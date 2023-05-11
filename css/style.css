@@ -1,0 +1,440 @@
+body {
+    margin: 0px;
+    background-color: #edf2fb;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menuicon {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin: 5px 5px;
+    z-index: 7;
+  }
+
+  .menuopenbutton {
+    width: 40px;
+    height: 40px;
+    border: none;
+    z-index: 100;
+    background-color: transparent;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cim {
+    top: 60px;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+
+}
+
+.title {
+    background-color: #0096c7;
+    height: 150px;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: #0096c7;
+    z-index: 5;
+}
+
+.wave1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    
+}
+
+.wavestuff {
+    width: 100%;
+    height: fit-content;
+    bottom: -10px;
+    position: relative;
+    margin-bottom: -20px;
+    padding: -20px;
+}
+
+.inputholder {
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    background-color: rgb(226, 226, 226);
+    border-radius: 70px;
+    padding-bottom: 100px;
+
+}
+
+input {
+    padding: 5px;
+    background-color: #d5d5d5;
+    border-radius: 30px;
+    border: 2px solid #0096c7;
+    color: #0096c7;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.inputfields {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+}
+
+select {
+    width: 200px;
+    padding: 5px;
+    background-color: #d5d5d5;
+    border-radius: 30px;
+    border: 2px solid #0096c7;
+    color: #0096c7;
+    margin: 20px;
+    text-align: center;
+}
+
+.inputfields h2, h4 {
+    text-align: left;
+    position: relative;
+    bottom: 0px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.alertVisible {
+    background-color: red;
+    width: 80%;
+    height: fit-content;
+    border: 3px solid red;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 25px;
+    align-self: center;
+    padding: 5px;
+
+}
+
+.alertNotVisible {
+    visibility: hidden;
+}
+
+.inputhr {
+    width: 100%;
+    height: 5px;
+    background-color: #0096c7;
+} 
+.inputhr1 {
+    width: 60%;
+    height: 3px;
+    background-color: #0096c7;
+} 
+
+.inputfields button {
+    padding: 5px;
+    background-color: #d5d5d5;
+    border-radius: 30px;
+    border: 2px solid #0096c7;
+    color: #0096c7;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    align-items: center;
+    align-self: center;
+}
+
+.googlemaps {
+    width: 50%;
+    height: 400px;
+    color: #0096c7;
+    background: transparent;
+    border: 2px solid #0096c7;
+    border-radius: 50px;
+    padding: px;
+    top: 100px;
+}
+
+.mapcontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 20px;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.googlemaps {
+    width: 50%;
+    max-width: 50%;
+    min-width:10%;
+    border: #0096c7 3px solid;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .googlemaps {
+        width: 600px;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 10px;
+
+    }
+    .cim {
+        top: 60px;
+        position: relative;
+        color: white;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    .table {
+        width: 100%;
+        height: 100px;
+        overflow: scroll;
+        padding: 20px;
+    }
+    .tableposition {
+        overflow-x: scroll;
+        width: 250px;
+
+    }
+    
+  }
+
+
+  .svg-icon {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #0096c7;
+  }
+  
+  .svg-icon circle {
+    stroke: #0096c7;
+    stroke-width: 1;
+  }
+
+.iconcontainer {
+    color: #0096c7;
+    font-weight: bold;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(203, 203, 203);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    border: #0096c7 5px solid;
+    
+
+}
+
+.iconcontainer:hover {
+    scale: 8;
+}
+
+.iconcontainers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 70px;
+    align-self: center;
+    justify-content: space-around;
+    margin: 20px;
+    width: 80%;
+    
+}
+
+.bgcolor {
+    background-color: rgb(185, 185, 185);
+}
+
+.redborder {
+    border: 3px solid red;
+}
+
+.succesform {
+    background-color: green;
+    border: 3px solid green;
+}
+
+.greenborder {
+    border: 3px solid green;
+}
+
+.table {
+    width: 100%;
+    height: fit-content;
+    padding: 3px;
+    align-self: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    align-content: center;
+    border: #0096c7 3px solid;
+    border-radius: 20px;
+
+}
+
+.table th,  tr, td {
+    border-bottom: #0096c7  solid;
+    
+}
+
+.tableposition {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    margin-left: 20px;
+}
+
+.cím {
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.sidemenu {
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    top: 0px;
+    left: 0px;
+    background-color: #406EBD;
+    z-index: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidemenubutton {
+    width: 160px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.buttonholder {
+    margin-top: 40px;
+}
+
+.nonvisible {
+    visibility: hidden;
+}
+
+.hrmenu {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    color: white;
+    padding: 0%;
+    margin: auto;
+}
+
+.hrmenu1 {
+    width: 150%;
+    height: 5px;
+    background-color: white;
+    color: white;
+    margin-top: 50px;
+    left: -25%;
+    position: relative;
+    
+
+}
+
+.menubuttoncsop2 {
+    margin-top: 00px;
+}
+
+.menubuttoncsop1 {
+    margin-top: 00px;
+}
+
+.nagyito :hover {
+    scale: 1.1;
+    transition: 1s;
+}
+
+.nagyito a :hover {
+    scale: none;
+    transition: 1s;
+}
+
+.nagyito {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+     /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #ffffff #0096c7;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #0096c7;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 6px none #ffffff;
+  }
+
+
+   
+
